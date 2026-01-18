@@ -105,24 +105,6 @@ config = ArtistConfig(
 )
 ```
 
-## 📁 Directory Structure
-
-Each downloader creates its own organized structure:
-
-```
-pytube/
-├── artist_downloader.py     # Main downloader script
-├── requirements.txt         # Python dependencies
-├── README.md              # This file
-└── Artist_Music/          # Download directory (created automatically)
-    ├── Album_Name/         # Album folders
-    ├── Singles/           # Single releases
-    ├── Collaborations/    # Featured songs
-    ├── [Special_Folders]/ # Artist-specific categories
-    ├── Artist_Complete.m3u
-    └── download_stats.json
-```
-
 ### Special Folder Examples
 
 - **Posthumous/** - For deceased artists (Juice WRLD, King Von, etc.)
@@ -388,3 +370,4 @@ This project is for educational purposes. Use responsibly and in accordance with
 ---
 
 **🎵 Happy Downloading! Support Your Favorite Artists! 🎵**
+
